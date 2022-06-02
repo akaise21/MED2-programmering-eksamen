@@ -7,14 +7,8 @@ using UnityEngine.Localization.Settings;
 
 public class LocalizationButton : MonoBehaviour
 {
-    //CurrentLanguageData _currentLocale;
     public bool active = false;
     public int localeID = 0;
-
-    private void Start()
-    {
-       // _currentLocale = FindObjectOfType<CurrentLanguageData>();
-    }
     public void ChangeLocale()
     {
         if (localeID == 0)

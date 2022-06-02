@@ -111,8 +111,8 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler //These t
     public Color notHighLighted = new Color(); // This color is used for the navigation bar
 
     Vector3 homeScreen = new Vector3(Screen.width / 2, Screen.height / 2, 0); //New vector3 based on the homeScreens location
-    Vector3 cameraScreen = new Vector3(Screen.width * -1, Screen.height / 2, 0); //New vector3 based on the cameraScreens location
-    Vector3 inventoryScreen = new Vector3(Screen.width * -3, Screen.height / 2, 0); //New vector3 based on the inventoryScreens location
+    Vector3 cameraScreen = new Vector3(Screen.width * -.5f, Screen.height / 2, 0); //New vector3 based on the cameraScreens location
+    Vector3 inventoryScreen = new Vector3(Screen.width * -1.5f, Screen.height / 2, 0); //New vector3 based on the inventoryScreens location
     //Vector3 homeScreen = new Vector3(1440 / 2, 2960 / 2, 0); //New vector3 based on the homeScreens location
     //Vector3 cameraScreen = new Vector3(1440 * -1, 2960 / 2, 0); //New vector3 based on the cameraScreens location
     //Vector3 inventoryScreen = new Vector3(1440 * -3, 2960 / 2, 0); //New vector3 based on the inventoryScreens location
