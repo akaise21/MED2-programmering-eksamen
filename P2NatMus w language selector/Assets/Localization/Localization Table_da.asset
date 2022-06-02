@@ -17,6 +17,74 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: c336ea5d632d0bd45888c4ae2d2f9b72, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1189602709504
+    m_Localized: Brug kameraet til at skanne objekter markeret med dette ikon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125371942064128
+    m_Localized: Nationalmuseet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125541685547008
+    m_Localized: FIND DEM ALLE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125713635233792
+    m_Localized: Du har fundet en genstand!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125942006697984
+    m_Localized: Inventar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126545474768896
+    m_Localized: "Rot\xE9r og zoom for at udforske"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126667730341888
+    m_Localized: "Den gamle folkehelt Uffe brugte et sv\xE6rd som dette, ved navn
+      'Skr\xE6p', til at overmande 2 saksere i en duel.\n\nHistorien fort\xE6ller
+      at sv\xE6rdet skar igennem saksernes sv\xE6rd og kroppe, s\xE5 Uffes far skreg:\n\n\"Det
+      var Skr\xE6p, som sejrede!\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127368132972544
+    m_Localized: "Vikingernes langb\xE5de blev rapporteret at have f\xE5et tilnavnet:\r\n\r\n'Drageskibe'\r\n\r\naf
+      engl\xE6nderne, som var modtagere af mange oldnordiske razziaer.\r\n\r\nDette
+      kaldenavn var blot en del af en viden og en frygt, som vikingernes langb\xE5de
+      ville fremprovokere."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127643069599744
+    m_Localized: "Det popul\xE6re billede af vikingerne er et af frygtindgydende
+      krigere, der b\xE6rer hornhjelme.\r\n\r\n\r\nMange afbildninger af vikingerne
+      viser denne s\xE6rlige egenskab.\r\n\r\n\r\nDer er dog kun \xE9n bevaret hjelm
+      fra vikingetiden og denne har ikke horn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127764666667008
+    m_Localized: "Dette sp\xE6nde er blandt de fineste eksempler p\xE5 guldsmedekunst
+      fra Danmarks vikingetid.\r\n\r\nRuner blev ofte indgraveret i artefakter som
+      en form for gammel magi.\r\n\r\nDen gamle nordbo mente, at runer kunne helbrede,
+      beskytte og give krigere overnaturlig styrke."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127890726473728
+    m_Localized: "De fleste skjolde fra vikingetiden findes ofte p\xE5 ceremonielle
+      gravsteder.\r\n\r\n\r\nDet var meningen, at de skulle ledsage de d\xF8de til
+      valhalla sammen med andre rigdomme og ofre af heste og slaver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128005587488768
+    m_Localized: "\r\nDenne \xF8kse var dekoreret i datidens mamma-stil.\r\n\r\nDet
+      er en \xE6re for de hedenske guder fra de gamle nordm\xE6nd.\r\n\r\nMere specifikt
+      en hyldest til livets tr\xE6 Yggdrasil og alfaderen Odin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128663212412928
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -10,24 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Assets-Shared
+  m_Name: Localization-Assets-English (en)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Assets-Shared
+  m_GroupName: Localization-Assets-English (en)
   m_Data:
     m_SerializedData: []
-  m_GUID: 31f281e8cd0a5b045bd1f7698bc9f1b4
+  m_GUID: 09e75ef120d9003499912b27e9b9aeb5
   m_SerializeEntries:
-  - m_GUID: c336ea5d632d0bd45888c4ae2d2f9b72
-    m_Address: Assets/Localization/Localization Table Shared Data.asset
+  - m_GUID: a25bf01028a955e4ba800e23db7091c3
+    m_Address: denmark
     m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 580e6eb949113d543bac8e9bfd858eb4
-    m_Address: Assets/Localization/AssetLocalization Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b1debde925fbcd043a3ca2a0c75f2050, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 37c391935ccbc2f44b4d912b69258c43, type: 2}
-    - {fileID: 11400000, guid: a8d2eb5609ee78c4e854105627356ce3, type: 2}
+    - {fileID: 11400000, guid: d67b77b7ba3049f4b8a04017c830a756, type: 2}
+    - {fileID: 11400000, guid: e28a43756e0d2ff4a8191c437424e740, type: 2}

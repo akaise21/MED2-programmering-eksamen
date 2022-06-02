@@ -17,6 +17,74 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: c336ea5d632d0bd45888c4ae2d2f9b72, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1189602709504
+    m_Localized: Use the camera to scan objects marked with this icon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125371942064128
+    m_Localized: National Museum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125541685547008
+    m_Localized: COLLECT THEM ALL!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125713635233792
+    m_Localized: You found an object!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125942006697984
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126545474768896
+    m_Localized: Rotate and zoom to inspect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126667730341888
+    m_Localized: "The old folk hero Uffe used a sword like this, called 'Skr\xE6p',
+      to defeat 2 saxons in a duel. \n\n\nThe tale tells that the sword cut through
+      the saxons swords and bodies, then Uffe's father yelled out: \n\n\n\u201CIt
+      was skr\xE6p that timbred!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127368132972544
+    m_Localized: "The Viking longboats were reported to have been nicknamed: \n\n\u2018Dragonships\u2019
+      \n\nby the English, who were the recipients of many a Old Norse raid. \n\nThis
+      nickname was just part of a lore and a fear that the Viking longboats would
+      provoke."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127643069599744
+    m_Localized: "The popular image of the Vikings is one of fearsome warriors wearing
+      horned helmets. \n\n\nMany depictions of the Vikings display this particular
+      attribute. \n\n\nHowever, there is only one preserved helmet from the Viking
+      Age and this does not have horns. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127764666667008
+    m_Localized: "This buckle is among the fineste examples of goldsmith art from
+      Denmark's Viking Age.\n\nRunes were often ingraved into artifacts as a form
+      of ancient magic. \n\nThe old norse believed that runes could heal, protect
+      and give warriors supernatural strength.  "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127890726473728
+    m_Localized: "\n\nMost shields from the viking age are often found in ceremonial
+      grave sites. \n\n\nThey were meant to accompany the dead to valhalla along
+      with other wealths and sacrifices of horses and slaves. \n\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128005587488768
+    m_Localized: "This axe was decorated in the mammen style of the time. \n\nIt
+      is an honor to the heathen gods of the old norse.\n\nMore specifically a tribute
+      to the tree of life Yggdrasil and the allfather Odin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128663212412928
+    m_Localized: Dansk
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

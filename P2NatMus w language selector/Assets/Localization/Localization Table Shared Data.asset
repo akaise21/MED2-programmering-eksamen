@@ -16,7 +16,55 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: c336ea5d632d0bd45888c4ae2d2f9b72
   m_Entries:
   - m_Id: 1189602709504
-    m_Key: New Entry
+    m_Key: IntroText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125371942064128
+    m_Key: IntroTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125541685547008
+    m_Key: IntroCatchphrase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125713635233792
+    m_Key: ObjectFound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125942006697984
+    m_Key: InventoryTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126545474768896
+    m_Key: InspectorIntro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126667730341888
+    m_Key: InspectorSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127368132972544
+    m_Key: InspectorLongship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127643069599744
+    m_Key: InspectorHelmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127764666667008
+    m_Key: InspectorPin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127890726473728
+    m_Key: InspectorShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128005587488768
+    m_Key: InspectorAxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1128663212412928
+    m_Key: LanguageSelectorText
     m_Metadata:
       m_Items: []
   m_Metadata:

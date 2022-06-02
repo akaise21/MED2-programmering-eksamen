@@ -113,12 +113,17 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler //These t
     Vector3 homeScreen = new Vector3(Screen.width / 2, Screen.height / 2, 0); //New vector3 based on the homeScreens location
     Vector3 cameraScreen = new Vector3(Screen.width * -1, Screen.height / 2, 0); //New vector3 based on the cameraScreens location
     Vector3 inventoryScreen = new Vector3(Screen.width * -3, Screen.height / 2, 0); //New vector3 based on the inventoryScreens location
+    //Vector3 homeScreen = new Vector3(1440 / 2, 2960 / 2, 0); //New vector3 based on the homeScreens location
+    //Vector3 cameraScreen = new Vector3(1440 * -1, 2960 / 2, 0); //New vector3 based on the cameraScreens location
+    //Vector3 inventoryScreen = new Vector3(1440 * -3, 2960 / 2, 0); //New vector3 based on the inventoryScreens location
 
     public void OnClickHomeBottom() //Should be placed on Home button in bottombar
     {
         
         PanelLocationObject.transform.position = homeScreen; //new Vector3(720, 1480, 0);
+        //PanelLocationObject.transform.position = new Vector3(1440 / 2, 2960 / 2, 0); //new Vector3(720, 1480, 0);
         panelLocationVector = homeScreen; //new Vector3(720, 1480, 0);
+        //panelLocationVector = new Vector3(1440 / 2, 2960 / 2, 0); //new Vector3(720, 1480, 0);
 
         //HomeScreen is equal to _currentPage 1,
         if (_currentPage == 2) //so if the _currentPage is equal to 2(CameraScreen) 
@@ -135,8 +140,12 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler //These t
     public void OnClickCameraBottom() //Should be placed on Camera button in bottombar
     {
         
-        PanelLocationObject.transform.position = cameraScreen;//new Vector3(-720, 1480, 0);
-        panelLocationVector = cameraScreen; //new Vector3(-720, 1480, 0);
+        //PanelLocationObject.transform.position = cameraScreen;//new Vector3(-720, 1480, 0);
+        PanelLocationObject.transform.position = new Vector3(Screen.width * -.5f, Screen.height / 2, 0);//new Vector3(-720, 1480, 0);
+        //PanelLocationObject.transform.position = new Vector3(1440 * -.5f, 2960 / 2, 0);//new Vector3(-720, 1480, 0);
+        //panelLocationVector = cameraScreen; //new Vector3(-720, 1480, 0);
+        panelLocationVector = new Vector3(Screen.width * -.5f, Screen.height / 2, 0); //new Vector3(-720, 1480, 0);
+        //panelLocationVector = new Vector3(1440 * -.5f, 2960 / 2, 0); //new Vector3(-720, 1480, 0);
 
         if (_currentPage == 1)
         {
@@ -151,9 +160,12 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler //These t
 
     public void OnClickInventoryBottom() //Should be placed on Inventory button in bottombar
     {
-        
-        PanelLocationObject.transform.position = inventoryScreen;//new Vector3(-2160, 1480, 0);
-        panelLocationVector = inventoryScreen;//new Vector3(-2160, 1480, 0);
+        //PanelLocationObject.transform.position = inventoryScreen;//new Vector3(-2160, 1480, 0);
+        //PanelLocationObject.transform.position = new Vector3(1440 * -1.5f, 2960 / 2, 0);//new Vector3(-2160, 1480, 0);
+        PanelLocationObject.transform.position = new Vector3(Screen.width * -1.5f, Screen.height / 2, 0);//new Vector3(-2160, 1480, 0);
+        //panelLocationVector = inventoryScreen;//new Vector3(-2160, 1480, 0);
+        //panelLocationVector = new Vector3(1440 * -1.5f, 2960 / 2, 0);//new Vector3(-2160, 1480, 0);
+        panelLocationVector = new Vector3(Screen.width * -1.5f, Screen.height / 2, 0);//new Vector3(-2160, 1480, 0);
 
         if (_currentPage == 1)
         {            
@@ -190,17 +202,17 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler //These t
 
     private void Update()
     {
-        if (panelLocationVector == new Vector3(720, 1480, 0)) //Color of bottom home button
-            SetColorHomeButton(highLighted);
+        if (panelLocationVector == homeScreen) //Color of bottom home button
+        SetColorHomeButton(highLighted);
         else
             SetColorHomeButton(notHighLighted);
 
-        if (panelLocationVector == new Vector3(-720, 1480, 0)) //Color of bottom camera button
+        if (panelLocationVector == new Vector3(Screen.width * -.5f, Screen.height / 2, 0)) //Color of bottom camera button
             SetColorCameraButton(highLighted);
         else
             SetColorCameraButton(notHighLighted);
 
-        if (panelLocationVector == new Vector3(-2160, 1480, 0)) //Color of bottom inventory button
+        if (panelLocationVector == new Vector3(Screen.width * -1.5f, Screen.height / 2, 0)) //Color of bottom inventory button
             SetColorInventoryButton(highLighted);
         else
             SetColorInventoryButton(notHighLighted);
